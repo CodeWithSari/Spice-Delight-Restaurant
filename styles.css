@@ -511,12 +511,16 @@ footer {
     font-size: 0.9rem;
 }
 .footer-bottom {
-            text-align: center;
-            padding-top: 20px;
-            
-            font-size: 14px;
-            margin-left: 300px;
-        }
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 10px 20px;
+  word-wrap: break-word;
+}
+
+
+
+        
 
 /* Responsive Styles */
 @media (max-width: 992px) {
@@ -596,3 +600,15 @@ footer {
         height: 200px;
     }
 }
+
+@media (max-width: 480px) {
+  .footer-bottom {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+  .footer-bottom p {
+    line-height: 1.5;
+  }
+}
+
